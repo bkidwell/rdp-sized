@@ -30,7 +30,7 @@ There are two scenarios, depending on the server environment:
   * Client window with titlebar should be 1520×800 pixels.
   * After connecting, right-click on client titlebar and set client-side scaling to 125%.
 
-Or, if your pixels on your display aren't too dense for your eyes, if you want "100%" scaling:
+Or, if the pixels on your display aren't too dense for your eyes, if you want "100%" scaling:
 
 * Client window for 1920×1080 display should be 1900×1000 pixels, and don't mess with scaling on the client or the server.
 
