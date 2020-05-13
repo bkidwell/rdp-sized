@@ -19,7 +19,7 @@ My solution is a couple of Windows `.cmd` batch scripts that wrap `mstsc.exe` an
 
 ## How the Scripts work
 
-Let's assume you have a 1920×1080 display, about 15 inches, and you want to use Windows "125%". You probably have a taskbar set at a certain size, and you want all the *remaining* desktop area to be taken by the RDP client windows.
+Let's assume you have a 1920×1080 display, about 15 inches, and you want to use Windows "125%" scaling. You probably have a taskbar set at a certain size, and you want all the *remaining* desktop area to be taken by the RDP client windows.
 
 There are two scenarios, depending on the server environment:
 
