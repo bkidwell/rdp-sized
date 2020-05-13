@@ -42,7 +42,7 @@ You might already have a personal `bin` or `scripts` folder with little utilitie
 
 ### 2. Install into Windows Desktop Environment
 
-You'll want `rdp-sized.cmd` to be your default handler for `.rdp` files. To that, find or create an `.rdp` file now, right-click on it, select "Open with → Choose another app". Navigate to and select `rdp-sized.cmd` as the target, and make sure you mark "Always use this app for .rdp files", then click "OK". You can terminate the RDP client connection that gets launched now, and proceed to the next step.
+You'll want `rdp-sized.cmd` to be your default handler for `.rdp` files. To do that, find or create an `.rdp` file now, right-click on it, select "Open with → Choose another app". Navigate to and select `rdp-sized.cmd` as the target, and make sure you mark "Always use this app for .rdp files", then click "OK". You can terminate the RDP client connection that gets launched now, and proceed to the next step.
 
 Now that you've changed the default handler for `.rdp`, there isn't a convenient way to launch an `.rdp` file in `mstsc.exe` in Edit mode. To fix that, open up your "SendTo" folder. Click Start → Run, and execute the command `shell:sendto`. Create shortcuts here for `rdp-sized.cmd` and `rdp-edit.cmd`.
 
