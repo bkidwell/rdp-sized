@@ -3,6 +3,8 @@
 Brendan Kidwell  
 13 May 2020
 
+https://github.com/bkidwell/rdp-sized
+
 ## Introduction
 
 On Windows, I want an RDP client with the following features:

@@ -1,4 +1,7 @@
 @echo off
+
+:: https://github.com/bkidwell/rdp-sized
+
 setlocal
 
 :: remove quotes
