@@ -57,7 +57,7 @@ Remember, the `.rdp` file's **filename** specifies the window height. This is ma
 To change the permanent window size preference for an `.rdp` file:
 
 1. Decide on the window dimensions you want, either by measuring or trial and error while you repeat the rest of these steps.
-2. Name the `.rdp` file like `foo--HEIGHT.rdp`, where `HEIGHT` is an integer number of pixels.
+2. Name the `.rdp` file like `foo--HEIGHT.rdp`, where `HEIGHT` is an integer number of pixels. There must be two hyphens ("--") preceding the `HEIGHT` number.
 3. Edit `rdp-sized.cmd`, lines 30 through 33. Change the series of if-else statements there and make sure every **height** you would use in a filename has a corresponding **width** in this block of code.
 4. Launch the `.rdp` file with `rdp-sized.cmd` and see if it came out to the right fit. Re-edit the filename and the script until you get it right.
 
