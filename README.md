@@ -30,6 +30,10 @@ There are two scenarios, depending on the server environment:
   * Client window with titlebar should be 1520×800 pixels.
   * After connecting, right-click on client titlebar and set client-side scaling to 125%.
 
+Or, if your pixels on your display aren't too dense for your eyes, if you want "100%" scaling:
+
+* Client window for 1920×1080 display should be 1900×1000 pixels, and don't mess with scaling on the client or the server.
+
 `rdp-sized.cmd` in this package reads the client window **height** from the **filename** of the connection file being launched, and automatically sets the **width** to match -- based on an if/else tree. It passes the appropriate parameters into Windows own `mstsc.exe` RDP client.
 
 `rdp-edit.cmd` is a quick workaround to make it easy to *edit* an `.rdp` file in `mstsc.exe` after you've changed the desktop config to specify that `rdp-sized.cmd` is the default handler for `.rdp` files.
